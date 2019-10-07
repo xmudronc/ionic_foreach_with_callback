@@ -42,11 +42,11 @@ export class ForEachSynchProvider {
   forEach(start: number, array: Array<object>, body: any, callback: any): void;
 
   forEach(p1: any, p2: any, p3: any, p4?: any, p5?: any): void {
-    if (typeof p4 == 'undefined' && typeof p5 == 'undefined') {
+    if (typeof p4 == 'undefined' && typeof p5 == 'undefined') { 
       this.forEachAll(p1, p2, p3);
-    } else if (typeof p4 == 'object' && typeof p5 == 'undefined') {
+    } else if (typeof p4 == 'function' && typeof p5 == 'undefined') {
       this.forEachStart(p1, p2, p3, p4);
-    } else if (typeof p4 == 'object' && typeof p5 == 'object') {
+    } else if (typeof p4 == 'function' && typeof p5 == 'function') {
       this.forEachStartEnd(p1, p2, p3, p4, p5);
     }
   }
