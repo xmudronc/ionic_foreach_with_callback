@@ -120,11 +120,11 @@ Console output is:
 Iterate through the array starting with 'start' and ending with the last element.
 
 ```typescript
-this.fes.forEach(array, start, body, callback);
+this.fes.forEach(start, array, body, callback);
 ```
 ```typescript
 var data = [0, 1, 2, 3, 4]
-this.fes.forEach(data, 1, (index, array, next) => {
+this.fes.forEach(1, data, (index, array, next) => {
 	console.log(array[ndexs]);
 	array[index]++;
 	next();
@@ -149,11 +149,11 @@ Console output is:
 Iterate through the array starting with 'start' and ending with 'end'.
 
 ```typescript
-this.fes.forEach(array, start, end, body, callback);
+this.fes.forEach(start, end, array, body, callback);
 ```
 ```typescript
 var data = [0, 1, 2, 3, 4]
-this.fes.forEach(data, 1, 3, (index, array, next) => {
+this.fes.forEach(1, 3, data, (index, array, next) => {
 	console.log(array[ndexs]);
 	array[index]++;
 	next();
