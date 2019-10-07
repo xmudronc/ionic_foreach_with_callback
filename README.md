@@ -64,11 +64,17 @@ this.fes.forEach(data, (index, array, next) => {
 });
 ```  
 Console output is:
+
 0
+
 1
+
 2
+
 3
+
 4
+
 [1, 2, 3, 4, 5]  
 
 The 'next()' function is required as a last function in the loop body and starts the next iteration.  
@@ -91,11 +97,17 @@ this.fes.forEach(data, (index, array, next) => {
 });
 ```
 Console output is:
+
 0
+
 1
+
 2
+
 3
+
 4
+
 [1, 2, 3, 4, 5]  
 
 ### For From
@@ -116,10 +128,15 @@ this.fes.forEach(data, 1, (index, array, next) => {
 });
 ```
 Console output is:
+
 1
+
 2
+
 3
+
 4
+
 [0, 2, 3, 4, 5]  
 
 ### For From To
@@ -139,7 +156,10 @@ this.fes.forEach(data, 1, 3, (index, array, next) => {
 	console.log(array);
 });
 ```
-Console output is:\n
-1\n
-2\n
+Console output is:
+
+1
+
+2
+
 [0, 2, 3, 3, 4]
