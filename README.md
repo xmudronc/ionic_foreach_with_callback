@@ -5,11 +5,16 @@ This provider was created as a solution to JavaScript for loop quirk where all i
   
 
 **Table of Contents**
+
 - [Installation](#installation)
+
 - [Usage](#usage)
-	-[For Each](#foreach)
-	-[For From](#forfrom)
-	-[For From To](#forfromto)
+
+	-[ForEach](#foreach)
+	
+	-[ForFrom](#forfrom)
+	
+	-[ForFromTo](#forfromto)
   
 
 ## Installation
@@ -79,7 +84,7 @@ Console output is:
 
 The 'next()' function is required as a last function in the loop body and starts the next iteration.  
 
-### For Each
+### ForEach
 
 Iterate through the whole array.
 
@@ -110,7 +115,7 @@ Console output is:
 
 [1, 2, 3, 4, 5]  
 
-### For From
+### ForFrom
 
 Iterate through the array starting with 'start' and ending with the last element.
 
@@ -139,7 +144,7 @@ Console output is:
 
 [0, 2, 3, 4, 5]  
 
-### For From To
+### ForFromTo
 
 Iterate through the array starting with 'start' and ending with 'end'.
 
