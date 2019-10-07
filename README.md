@@ -139,7 +139,7 @@ this.fes.forEach(data, 1, 3, (index, array, next) => {
 	console.log(array);
 });
 ```
-Console output is:
-1
-2
+Console output is:\n
+1\n
+2\n
 [0, 2, 3, 3, 4]
